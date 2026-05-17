@@ -312,7 +312,7 @@ export default function PersonalAcademicPage() {
 
 
       <Section id="recherche" icon={Microscope} title="Recherche">
-        <div className="grid lg:grid-cols-[0.9fr_1.1fr] gap-8">
+        <div className="space-y-8">
           <div className="rounded-3xl bg-white border border-slate-200 p-7 shadow-sm h-fit">
             <h3 className="text-2xl font-semibold text-slate-950 mb-4">Activités scientifiques</h3>
             <p className="leading-relaxed mb-4">

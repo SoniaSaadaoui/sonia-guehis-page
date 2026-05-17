@@ -174,7 +174,7 @@ export default function PersonalAcademicPage() {
           </div>
           <div className="rounded-[2rem] bg-slate-950 text-white p-8 shadow-xl">
             <img
-              src="/photo.jpg"
+              src="/sonia-guehis.jpg"
               alt="Sonia Guehis"
               className="aspect-square object-cover rounded-[1.5rem] mb-6 shadow-lg"
             />

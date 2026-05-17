@@ -112,153 +112,66 @@ const publicationSections = [
         authors: "S. Guehis, V. Goasdoué-Thion, P. Rigaux",
         title: "Speeding-Up Data-driven Applications with Program Summaries",
         venue: "ACM International Database Engineering and Applications Symposium, IDEAS, 2009."
-      }
-      ,
-      {
-        authors: "S. Guehis, D. Gross-Amblard, P. Rigaux",
-        title: "Publish By Example",
-        venue: "IEEE International Conference on Web Engineering, ICWE, 2008."
       },
       {
-        authors: "S. Guehis, P. Rigaux, E. Waller",
-        title: "Data-driven Publication of Relational Databases",
-        venue: "IEEE International Database Engineering and Applications Symposium, IDEAS, 2006."
-      }
-    ]
-  },
-  {
-    title: "Workshops internationaux avec comité de lecture",
-    items: [
-      {
-        authors: "W. Aboucaya, S. Guehis, R. Angarita",
-        title: "Building Online Public Consultation Knowledge Graphs",
-        venue: "Text2KG 2023, International Workshop on Knowledge Graph Generation from Text, co-located with ESWC, 2023."
-      },
-      {
-        authors: "S. Guehis",
-        title: "A Framework for Understanding Web Publishing Applications",
-        venue: "CAiSE Workshop WISM, 2009."
-      }
-    ]
-  },
-  {
-    title: "Revue nationale",
-    items: [
-      {
-        authors: "S. Guehis, D. Gross-Amblard, P. Rigaux",
-        title: "Un modèle de production interactive de programmes de publication",
-        venue: "Technique et Science Informatiques, TSI, 2008."
-      }
-    ]
-  },
-  {
-    title: "Conférences nationales avec comité de lecture",
-    items: [
-      {
-        authors: "S. Guehis, V. Goasdoué-Thion, P. Rigaux",
-        title: "Optimisation des applications orientées données",
-        venue: "Bases de Données Avancées, BDA, 2009."
-      },
-      {
-        authors: "S. Guehis, D. Gross-Amblard, P. Rigaux",
-        title: "Publication de données par l’exemple",
-        venue: "Bases de Données Avancées, BDA, 2007."
-      },
-      {
-        authors: "S. Guehis, P. Rigaux, E. Waller",
-        title: "Data-Driven Publication of Relational Databases",
-        venue: "Bases de Données Avancées, BDA, 2006."
-      }
-    ]
-  },
-  {
-    title: "Démonstrations",
-    items: [
-      {
-        authors: "S. Guehis",
-        title: "Une interface de production par l’exemple de programmes de publication",
-        venue: "Bases de Données Avancées, BDA, 2007."
-      },
-      {
-        authors: "S. Guehis, P. Rigaux",
-        title: "Le langage de publication DocQL",
-        venue: "Bases de Données Avancées, BDA, 2006."
-      }
-    ]
-  },
-  {
-    title: "Thèse de doctorat et mémoires",
-    items: [
-      {
-        authors: "S. Guehis",
-        title: "Modélisation, production et optimisation des programmes SQL",
-        venue: "Thèse de doctorat, Université Paris-Dauphine, 2009."
-      },
-      {
-        authors: "S. Guehis",
-        title: "Traçabilité des données personnelles",
-        venue: "Mémoire de DEA, 2005."
-      }
-    ]
-  }
 ];
 
-const supervisees = [
-  {
-    name: "Hassan Salman",
-    role: "Docteur, thèse soutenue en Avril 2026",
-    topic: "Improvement of Federated Learning Models for E-health / Amélioration des modèles d’apprentissage fédéré pour la cybersanté"
-  },
-  {
-    name: "Luis Egberto Alvarado Pintado",
-    role: "Doctorant depuis mars 2025",
-    topic: "Optimizing Conversational Business Intelligence Models: Toward Real-Time Personalized and Adaptive Interaction Using Artificial Intelligence"
-  },
-  {
-    name: "Khodr Sabra",
-    role: "Doctorant depuis décembre 2025",
-    topic: "Privacy-Preserving Multimodal AI for Smart Cities: Integrating Federated Learning, Multilingual NLP, and GIS"
-  },
-  {
-    name: "Baptiste Geisenberger",
-    role: "Stagiaire de recherche M1 au Lamsade, de 02/25 au 07/25",
-    topic: "Bliss: Client Selection Framework for Cross-Device Federated Learning"
-  },
-  {
-    name: "Achraf Tasfaout",
-    role: "Stagiaire M2 IASD",
-    topic: "Opening the Black Box: Efficient Fine-Tuning of Language Models for Specialized Text Generation"
-  },
-  {
-    name: "Hector Corblet",
-    role: "Stagiaire M2 IASD",
-    topic: "Estimation et validation d’empreintes radar de grêle pour l’évaluation des sinistres"
-  }
-];
+    const supervisees = [
+      {
+        name: "Hassan Salman",
+        role: "Docteur, thèse soutenue en Avril 2026",
+        topic: "Improvement of Federated Learning Models for E-health / Amélioration des modèles d’apprentissage fédéré pour la cybersanté"
+      },
+      {
+        name: "Luis Egberto Alvarado Pintado",
+        role: "Doctorant depuis mars 2025",
+        topic: "Optimizing Conversational Business Intelligence Models: Toward Real-Time Personalized and Adaptive Interaction Using Artificial Intelligence"
+      },
+      {
+        name: "Khodr Sabra",
+        role: "Doctorant depuis décembre 2025",
+        topic: "Privacy-Preserving Multimodal AI for Smart Cities: Integrating Federated Learning, Multilingual NLP, and GIS"
+      },
+      {
+        name: "Baptiste Geisenberger",
+        role: "Stagiaire de recherche M1 au Lamsade, de 02/25 au 07/25",
+        topic: "Bliss: Client Selection Framework for Cross-Device Federated Learning"
+      },
+      {
+        name: "Achraf Tasfaout",
+        role: "Stagiaire M2 IASD",
+        topic: "Opening the Black Box: Efficient Fine-Tuning of Language Models for Specialized Text Generation"
+      },
+      {
+        name: "Hector Corblet",
+        role: "Stagiaire M2 IASD",
+        topic: "Estimation et validation d’empreintes radar de grêle pour l’évaluation des sinistres"
+      }
+    ];
 
-const timeline = [
-  "Depuis 2010 — Maîtresse de conférences, Université Paris Nanterre",
-  "Depuis 2010 — Chercheuse associée, LAMSADE, Université Paris Dauphine-PSL",
-  "2009 — Doctorat en informatique, LAMSADE, Université Paris-Dauphine",
-  "2009–2010 — ATER à temps plein, Université Paris-Dauphine",
-  "2008–2009 — ATER à mi-temps, Université Paris-Dauphine",
-  "2005–2008 — Allocataire de recherche et monitrice, LAMSADE, Université Paris-Dauphine",
-  "2005 — DEA Systèmes intelligents, Université Paris-Dauphine",
-  "2002–2004 — Ingénieure informatique, Agence Nationale des Fréquences, Ministère des Télécommunications",
-  "2002 — Diplôme d’ingénieur en informatique, École Nationale des Sciences de l’Informatique",
-  "1999 — Classes préparatoires Math sup / Math spé, IPEIT"
-];
+    const timeline = [
+      "Depuis 2010 — Maîtresse de conférences, Université Paris Nanterre",
+      "Depuis 2010 — Chercheuse associée, LAMSADE, Université Paris Dauphine-PSL",
+      "2009 — Doctorat en informatique, LAMSADE, Université Paris-Dauphine",
+      "2009–2010 — ATER à temps plein, Université Paris-Dauphine",
+      "2008–2009 — ATER à mi-temps, Université Paris-Dauphine",
+      "2005–2008 — Allocataire de recherche et monitrice, LAMSADE, Université Paris-Dauphine",
+      "2005 — DEA Systèmes intelligents, Université Paris-Dauphine",
+      "2002–2004 — Ingénieure informatique, Agence Nationale des Fréquences, Ministère des Télécommunications",
+      "2002 — Diplôme d’ingénieur en informatique, École Nationale des Sciences de l’Informatique",
+      "1999 — Classes préparatoires Math sup / Math spé, IPEIT"
+    ];
 
-function Section({ id, icon: Icon, title, children }) {
-  return (
-    <section id={id} className="scroll-mt-24 py-16 border-t border-slate-200" >
-      <div className="max-w-6xl mx-auto px-6">
-        <div className="flex items-center gap-3 mb-8">
-          <div className="p-3 rounded-2xl bg-slate-900 text-white shadow-sm"><Icon size={22} /></div>
-          <h2 className="text-3xl font-semibold tracking-tight text-slate-950">{title}</h2>
+    function Section({ id, icon: Icon, title, children }) {
+    return(
+    <section id = { id } className = "scroll-mt-24 py-16 border-t border-slate-200" >
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="flex items-center gap-3 mb-8">
+            <div className="p-3 rounded-2xl bg-slate-900 text-white shadow-sm"><Icon size={22} /></div>
+            <h2 className="text-3xl font-semibold tracking-tight text-slate-950">{title}</h2>
+          </div>
+          {children}
         </div>
-        {children}
-      </div>
     </section >
   );
 }
@@ -324,24 +237,22 @@ export default function PersonalAcademicPage() {
           </div>
           <div className="rounded-3xl bg-white border border-slate-200 p-7 shadow-sm">
             <h3 className="text-2xl font-semibold text-slate-950 mb-4">Publications</h3>
-            <div className="space-y-7">
-              {publicationSections.map((section) => (
-                <div key={section.title}>
-                  <h4 className="text-lg font-semibold text-slate-950 mb-3 border-b border-slate-200 pb-2">
-                    {section.title}
-                  </h4>
-                  <ol className="space-y-3 text-sm leading-relaxed list-decimal list-inside">
-                    {section.items.map((pub) => (
-                      <li key={`${section.title}-${pub.title}`}>
-                        <span>{pub.authors}, </span>
-                        <strong className="font-semibold text-slate-950">{pub.title}</strong>
-                        <span>, {pub.venue}</span>
-                      </li>
-                    ))}
-                  </ol>
-                </div>
-              ))}
-            </div>
+            <ol className="space-y-3 text-sm leading-relaxed list-decimal list-inside">
+              {publications.map((pub) => <li key={pub}>{pub}</li>)}
+            </ol>
+          </div>
+        </div>
+
+        <div className="mt-8 rounded-3xl bg-white border border-slate-200 p-7 shadow-sm">
+          <h3 className="text-2xl font-semibold text-slate-950 mb-5">Doctorants et stagiaires encadrés</h3>
+          <div className="grid md:grid-cols-2 gap-5">
+            {supervisees.map((person) => (
+              <div key={person.name} className="rounded-2xl bg-slate-50 border border-slate-200 p-5">
+                <p className="font-semibold text-slate-950">{person.name}</p>
+                <p className="text-sm text-slate-500 mb-2">{person.role}</p>
+                <p className="text-sm leading-relaxed">{person.topic}</p>
+              </div>
+            ))}
           </div>
         </div>
       </Section>

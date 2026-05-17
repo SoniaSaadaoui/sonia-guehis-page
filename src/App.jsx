@@ -145,8 +145,8 @@ export default function PersonalAcademicPage() {
         <div className="max-w-6xl mx-auto px-6 py-4 flex flex-wrap items-center justify-between gap-4">
           <a href="#home" className="font-semibold text-slate-950">Sonia Guehis</a>
           <div className="flex flex-wrap gap-4 text-sm text-slate-600">
-            <a href="#enseignement" className="hover:text-slate-950">Enseignements</a>
             <a href="#recherche" className="hover:text-slate-950">Recherche</a>
+            <a href="#enseignement" className="hover:text-slate-950">Enseignements</a>
             <a href="#bio" className="hover:text-slate-950">Bio</a>
             <a href="#contact" className="hover:text-slate-950">Contact</a>
           </div>
@@ -184,17 +184,7 @@ export default function PersonalAcademicPage() {
         </div>
       </header>
 
-      <Section id="enseignement" icon={BookOpen} title="Enseignements">
-        <div className="grid md:grid-cols-2 gap-5">
-          {courses.map((course) => (
-            <article key={course.title} className="rounded-3xl bg-white border border-slate-200 p-6 shadow-sm">
-              <h3 className="text-xl font-semibold text-slate-950 mb-2">{course.title}</h3>
-              <p className="text-sm font-medium text-slate-500 mb-3">{course.audience}</p>
-              <p className="leading-relaxed">{course.description}</p>
-            </article>
-          ))}
-        </div>
-      </Section>
+
 
       <Section id="recherche" icon={Microscope} title="Recherche">
         <div className="grid lg:grid-cols-[0.9fr_1.1fr] gap-8">
@@ -228,7 +218,17 @@ export default function PersonalAcademicPage() {
           </div>
         </div>
       </Section>
-
+      <Section id="enseignement" icon={BookOpen} title="Enseignements">
+        <div className="grid md:grid-cols-2 gap-5">
+          {courses.map((course) => (
+            <article key={course.title} className="rounded-3xl bg-white border border-slate-200 p-6 shadow-sm">
+              <h3 className="text-xl font-semibold text-slate-950 mb-2">{course.title}</h3>
+              <p className="text-sm font-medium text-slate-500 mb-3">{course.audience}</p>
+              <p className="leading-relaxed">{course.description}</p>
+            </article>
+          ))}
+        </div>
+      </Section>
       <Section id="bio" icon={User} title="Bio">
         <div className="grid md:grid-cols-2 gap-5">
           {timeline.map((item) => (

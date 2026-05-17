@@ -206,17 +206,17 @@ const publicationSections = [
 const thesisSupervisees = [
   {
     name: "Hassan Salman",
-    role: "Doctorant",
+    role: "Docteur, thèse soutenue en Avril 2026",
     topic: "Improvement of Federated Learning Models for E-health / Amélioration des modèles d’apprentissage fédéré pour la cybersanté"
   },
   {
     name: "Luis Egberto Alvarado Pintado",
-    role: "Doctorant",
+    role: "Doctorant, en thèse depuis Mars 2025",
     topic: "Optimizing Conversational Business Intelligence Models: Toward Real-Time Personalized and Adaptive Interaction Using Artificial Intelligence"
   },
   {
     name: "Khodr Sabra",
-    role: "Doctorant",
+    role: "Doctorant, en thèse depuis décembre 2025",
     topic: "Privacy-Preserving Multimodal AI for Smart Cities: Integrating Federated Learning, Multilingual NLP, and GIS"
   }
 ];
@@ -224,17 +224,17 @@ const thesisSupervisees = [
 const internshipSupervisees = [
   {
     name: "Baptiste Geisenberger",
-    role: "Stagiaire de recherche M1",
+    role: "Stagiaire de recherche M1 au lamsade, 02/2025 à 07/2025",
     topic: "Bliss: Client Selection Framework for Cross-Device Federated Learning"
   },
   {
     name: "Achraf Tasfaout",
-    role: "Stagiaire M2 IASD",
+    role: "Stagiaire M2 IASD, 2025",
     topic: "Opening the Black Box: Efficient Fine-Tuning of Language Models for Specialized Text Generation"
   },
   {
     name: "Hector Corblet",
-    role: "Stagiaire M2 IASD",
+    role: "Stagiaire M2 IASD, 2025",
     topic: "Estimation et validation d’empreintes radar de grêle pour l’évaluation des sinistres"
   }
 ];

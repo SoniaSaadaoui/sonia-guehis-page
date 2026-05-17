@@ -112,16 +112,16 @@ const supervisees = [
 ];
 
 const timeline = [
-  "2009 — Doctorat en informatique, LAMSADE, Université Paris-Dauphine",
-  "2005 — DEA Systèmes intelligents, Université Paris-Dauphine",
-  "2002 — Diplôme d’ingénieur en informatique, École Nationale des Sciences de l’Informatique",
-  "1999 — Classes préparatoires Math sup / Math spé, IPEIT, Tunis",
   "Depuis 2010 — Maîtresse de conférences, Université Paris Nanterre",
   "Depuis 2010 — Chercheuse associée, LAMSADE, Université Paris Dauphine-PSL",
+  "2009 — Doctorat en informatique, LAMSADE, Université Paris-Dauphine",
   "2009–2010 — ATER à temps plein, Université Paris-Dauphine",
   "2008–2009 — ATER à mi-temps, Université Paris-Dauphine",
   "2005–2008 — Allocataire de recherche et monitrice, LAMSADE, Université Paris-Dauphine",
-  "2002–2004 — Ingénieure informatique, Agence Nationale des Fréquences, Ministère des Télécommunications, Tunisie"
+  "2005 — DEA Systèmes intelligents, Université Paris-Dauphine",
+  "2002–2004 — Ingénieure informatique, Agence Nationale des Fréquences, Ministère des Télécommunications, Tunisie",
+  "2002 — Diplôme d’ingénieur en informatique, École Nationale des Sciences de l’Informatique",
+  "1999 — Classes préparatoires Math sup / Math spé, IPEIT, Tunis"
 ];
 
 function Section({ id, icon: Icon, title, children }) {

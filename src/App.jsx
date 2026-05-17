@@ -203,25 +203,28 @@ const publicationSections = [
   }
 ];
 
-const supervisees = [
+const thesisSupervisees = [
   {
     name: "Hassan Salman",
-    role: "Docteur, thèse soutenue en Avril 2026",
+    role: "Doctorant",
     topic: "Improvement of Federated Learning Models for E-health / Amélioration des modèles d’apprentissage fédéré pour la cybersanté"
   },
   {
     name: "Luis Egberto Alvarado Pintado",
-    role: "Doctorant depuis mars 2025",
+    role: "Doctorant",
     topic: "Optimizing Conversational Business Intelligence Models: Toward Real-Time Personalized and Adaptive Interaction Using Artificial Intelligence"
   },
   {
     name: "Khodr Sabra",
-    role: "Doctorant depuis décembre 2025",
+    role: "Doctorant",
     topic: "Privacy-Preserving Multimodal AI for Smart Cities: Integrating Federated Learning, Multilingual NLP, and GIS"
-  },
+  }
+];
+
+const internshipSupervisees = [
   {
     name: "Baptiste Geisenberger",
-    role: "Stagiaire de recherche M1 au Lamsade, de 02/25 au 07/25",
+    role: "Stagiaire de recherche M1",
     topic: "Bliss: Client Selection Framework for Cross-Device Federated Learning"
   },
   {
@@ -235,7 +238,6 @@ const supervisees = [
     topic: "Estimation et validation d’empreintes radar de grêle pour l’évaluation des sinistres"
   }
 ];
-
 const timeline = [
   "Depuis 2010 — Maîtresse de conférences, Université Paris Nanterre",
   "Depuis 2010 — Chercheuse associée, LAMSADE, Université Paris Dauphine-PSL",
@@ -345,15 +347,40 @@ export default function PersonalAcademicPage() {
           </div>
         </div>
         <div className="mt-8 rounded-3xl bg-white border border-slate-200 p-7 shadow-sm">
-          <h3 className="text-2xl font-semibold text-slate-950 mb-5">Doctorants et stagiaires encadrés</h3>
-          <div className="grid md:grid-cols-2 gap-5">
-            {supervisees.map((person) => (
-              <div key={person.name} className="rounded-2xl bg-slate-50 border border-slate-200 p-5">
-                <p className="font-semibold text-slate-950">{person.name}</p>
-                <p className="text-sm text-slate-500 mb-2">{person.role}</p>
-                <p className="text-sm leading-relaxed">{person.topic}</p>
-              </div>
-            ))}
+          <h3 className="text-2xl font-semibold text-slate-950 mb-6">
+            Encadrement doctoral et scientifique
+          </h3>
+
+          <div className="mb-8">
+            <h4 className="text-lg font-semibold text-slate-950 mb-4 border-b border-slate-200 pb-2">
+              Encadrement de thèses
+            </h4>
+
+            <div className="grid md:grid-cols-2 gap-5">
+              {thesisSupervisees.map((person) => (
+                <div key={person.name} className="rounded-2xl bg-slate-50 border border-slate-200 p-5">
+                  <p className="font-semibold text-slate-950">{person.name}</p>
+                  <p className="text-sm text-slate-500 mb-2">{person.role}</p>
+                  <p className="text-sm leading-relaxed">{person.topic}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div>
+            <h4 className="text-lg font-semibold text-slate-950 mb-4 border-b border-slate-200 pb-2">
+              Encadrement de stages
+            </h4>
+
+            <div className="grid md:grid-cols-2 gap-5">
+              {internshipSupervisees.map((person) => (
+                <div key={person.name} className="rounded-2xl bg-slate-50 border border-slate-200 p-5">
+                  <p className="font-semibold text-slate-950">{person.name}</p>
+                  <p className="text-sm text-slate-500 mb-2">{person.role}</p>
+                  <p className="text-sm leading-relaxed">{person.topic}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </Section>

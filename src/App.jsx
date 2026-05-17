@@ -353,7 +353,7 @@ export default function PersonalAcademicPage() {
 
           <div className="mb-8">
             <h4 className="text-lg font-semibold text-slate-950 mb-4 border-b border-slate-200 pb-2">
-              Encadrement de thèses
+              Co-Encadrement de thèses
             </h4>
 
             <div className="grid md:grid-cols-2 gap-5">

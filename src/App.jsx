@@ -173,6 +173,11 @@ export default function PersonalAcademicPage() {
             </div>
           </div>
           <div className="rounded-[2rem] bg-slate-950 text-white p-8 shadow-xl">
+            <img
+              src="/sonia-guehis.jpg"
+              alt="Sonia Guehis"
+              className="aspect-square object-cover rounded-[1.5rem] mb-6 shadow-lg"
+            />
             <p className="text-sm uppercase tracking-[0.22em] text-slate-400 mb-4">Axes principaux</p>
             <ul className="space-y-4 text-lg">
               <li>Gestion et exploitation de données hétérogènes</li>

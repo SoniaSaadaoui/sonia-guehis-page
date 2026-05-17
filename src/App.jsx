@@ -344,6 +344,18 @@ export default function PersonalAcademicPage() {
             </div>
           </div>
         </div>
+        <div className="mt-8 rounded-3xl bg-white border border-slate-200 p-7 shadow-sm">
+          <h3 className="text-2xl font-semibold text-slate-950 mb-5">Doctorants et stagiaires encadrés</h3>
+          <div className="grid md:grid-cols-2 gap-5">
+            {supervisees.map((person) => (
+              <div key={person.name} className="rounded-2xl bg-slate-50 border border-slate-200 p-5">
+                <p className="font-semibold text-slate-950">{person.name}</p>
+                <p className="text-sm text-slate-500 mb-2">{person.role}</p>
+                <p className="text-sm leading-relaxed">{person.topic}</p>
+              </div>
+            ))}
+          </div>
+        </div>
       </Section>
       <Section id="enseignement" icon={BookOpen} title="Enseignements">
         <div className="grid md:grid-cols-2 gap-5">

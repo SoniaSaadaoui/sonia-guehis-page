@@ -60,20 +60,20 @@ const publicationSections = [
     items: [
       {
         authors: "H. Salman, J.-F. Pradat-Peyre, S. Guehis, N. Charara, C. Zaki, A. Nasser",
+        title: "FedAK: A Semi Supervised One-shot Framework for Heterogeneous Federated Learning via Feature-Level Attention-Based Knowledge Distillation",
+        venue: "Scientific Reports, Springer. Mai 2026"
+      },
+      {
+        authors: "H. Salman, J.-F. Pradat-Peyre, S. Guehis, N. Charara, C. Zaki, A. Nasser",
         title: "A New communication efficient federated online distillation for Non-IID Data: Application to fetal brain ultrasound plane classification",
-        venue: "Neuroscience Informatics, 2026."
+        venue: "Neuroscience Informatics, Mars 2026."
       },
       {
         authors: "H. Salman, C. Zaki, N. Charara, S. Guehis, J.-F. Pradat-Peyre, A. Nasser",
         title: "Knowledge distillation in federated learning: a comprehensive survey",
-        venue: "Discover Computing, 2025."
+        venue: "Discover Computing, décembre 2025."
       },
-      {
-        authors: "H. Salman, J.-F. Pradat-Peyre, S. Guehis, N. Charara, C. Zaki, A. Nasser",
-        title: "FedAK: A Semi Supervised One-shot Framework for Heterogeneous Federated Learning via Feature-Level Attention-Based Knowledge Distillation",
-        venue: "Under review, Scientific Reports, Springer."
-      },
-      {
+      /*{
         authors: "H. Salman, C. Zaki, N. Charara, S. Guehis, J.-F. Pradat-Peyre, A. Nasser",
         title: "Steganographic Federated Distillation: DT-CWT-Based Knowledge Transfer for Covert Collaborative Learning",
         venue: "Under review, IEEE Transactions on Information Forensics and Security."
@@ -82,7 +82,7 @@ const publicationSections = [
         authors: "L. E. Alvarado Pintado, Y. Cardinale, S. Guehis, M. Rukoz",
         title: "Optimization of Conversational Business Intelligence Models Using Parameter-Efficient Fine-Tuning Techniques: A Systematic Review",
         venue: "Under review, Discover Computing."
-      }
+      }*/
     ]
   },
   {

@@ -28,11 +28,6 @@ const courses = [
     description: "Approfondissement des modèles de données avancés et des systèmes NoSQL pour la gestion de données hétérogènes et distribuées."
   },
   {
-    title: "Bases de données avancées et Big Data",
-    audience: "M1 MIAGE, Université Paris Cité",
-    description: "Cours consacré aux architectures et technologies de gestion de données massives, de l’intégration au stockage distribué."
-  },
-  {
     title: "Business Intelligence",
     audience: "M1 MIAGE, Université Paris Nanterre",
     description: "Étude de l’informatique décisionnelle, des entrepôts de données, des processus ETL, de la modélisation multidimensionnelle et des tableaux de bord."
@@ -86,22 +81,22 @@ const publications = [
 const supervisees = [
   {
     name: "Hassan Salman",
-    role: "Doctorant",
+    role: "Docteur, thèse soutenue en Avril 2026",
     topic: "Improvement of Federated Learning Models for E-health / Amélioration des modèles d’apprentissage fédéré pour la cybersanté"
   },
   {
     name: "Luis Egberto Alvarado Pintado",
-    role: "Doctorant",
+    role: "Doctorant depuis mars 2025",
     topic: "Optimizing Conversational Business Intelligence Models: Toward Real-Time Personalized and Adaptive Interaction Using Artificial Intelligence"
   },
   {
     name: "Khodr Sabra",
-    role: "Doctorant",
+    role: "Doctorant depuis décembre 2025",
     topic: "Privacy-Preserving Multimodal AI for Smart Cities: Integrating Federated Learning, Multilingual NLP, and GIS"
   },
   {
     name: "Baptiste Geisenberger",
-    role: "Stagiaire de recherche M1",
+    role: "Stagiaire de recherche M1 au Lamsade, de 02/25 au 07/25",
     topic: "Bliss: Client Selection Framework for Cross-Device Federated Learning"
   },
   {
@@ -181,9 +176,9 @@ export default function PersonalAcademicPage() {
             <p className="text-sm uppercase tracking-[0.22em] text-slate-400 mb-4">Axes principaux</p>
             <ul className="space-y-4 text-lg">
               <li>Gestion et exploitation de données hétérogènes</li>
-              <li>Graphes de connaissances</li>
               <li>Apprentissage fédéré et données non-IID</li>
               <li>Business Intelligence conversationnelle</li>
+              <li>Graphes de connaissances</li>
             </ul>
           </div>
         </div>

@@ -159,10 +159,10 @@ export default function PersonalAcademicPage() {
       </nav>
 
       <header id="home" className="relative overflow-hidden bg-white">
-        <div className="max-w-6xl mx-auto px-6 py-24 md:py-32 grid md:grid-cols-[1.4fr_0.8fr] gap-12 items-center">
+        <div className="max-w-6xl mx-auto px-6 py-14 md:py-16 grid md:grid-cols-[1.4fr_0.8fr] gap-12 items-center">
           <div>
             <p className="uppercase tracking-[0.28em] text-sm text-slate-500 mb-5">Informatique · Données · Intelligence artificielle</p>
-            <h1 className="text-5xl md:text-7xl font-semibold tracking-tight text-slate-950 mb-6">Sonia Guehis</h1>
+            <h1 className="text-4xl md:text-5xl font-semibold tracking-tight text-slate-950 mb-2">Sonia Guehis</h1>
             <p className="text-xl md:text-2xl leading-relaxed text-slate-700 max-w-3xl">
               Maîtresse de conférences en informatique à l’Université Paris Nanterre et chercheuse associée au LAMSADE, Université Paris Dauphine-PSL.
             </p>
@@ -176,7 +176,7 @@ export default function PersonalAcademicPage() {
             <img
               src="/sonia-guehis.jpg"
               alt="Sonia Guehis"
-              className="w-full max-h-[420px] object-contain rounded-[1.5rem] mb-6 shadow-lg bg-slate-800"
+              className="w-[75%] mx-auto max-h-[320px] object-contain rounded-[1.5rem] mb-5 shadow-lg bg-slate-800"
             />
             <p className="text-sm uppercase tracking-[0.22em] text-slate-400 mb-4">Axes principaux</p>
             <ul className="space-y-4 text-lg">

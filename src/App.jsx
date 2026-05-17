@@ -258,7 +258,6 @@ export default function PersonalAcademicPage() {
             <p className="flex items-start gap-3"><MapPin size={18} className="mt-1" /> <span>LAMSADE, Université Paris Dauphine-PSL<br />Place du Maréchal de Lattre de Tassigny<br />75775 Paris Cedex 16, France</span></p>
           </article>
         </div>
-        <p className="mt-6 text-sm text-slate-500">Remplacer les adresses email génériques par les adresses institutionnelles exactes avant publication.</p>
       </Section>
     </main>
   );

@@ -176,7 +176,7 @@ export default function PersonalAcademicPage() {
             <img
               src="/sonia-guehis.jpg"
               alt="Sonia Guehis"
-              className="w-full rounded-[1.5rem] mb-6 shadow-lg object-contain bg-slate-800"
+              className="w-full max-h-[420px] object-contain rounded-[1.5rem] mb-6 shadow-lg bg-slate-800"
             />
             <p className="text-sm uppercase tracking-[0.22em] text-slate-400 mb-4">Axes principaux</p>
             <ul className="space-y-4 text-lg">
